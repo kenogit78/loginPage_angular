@@ -1,0 +1,17 @@
+.home{
+    background: #F2F7FC;
+    width: 100%;
+    display: flex;
+}
+
+.sidebar{
+    flex: 1;
+    background: #EFF5FB;
+    box-shadow: inset -10px 0px 20px rgba(194, 203, 217, 0.15);
+    padding: 2em;
+}
+
+.main{
+    flex: 4;
+    background: #F2F7FC;
+}

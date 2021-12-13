@@ -1,0 +1,152 @@
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box_section h3{
+    
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+margin-bottom: 1.5em;
+/* identical to box height */
+
+
+color: #19304D;
+}
+
+.box_section .main_box{
+    position: relative;
+    width: 487px;
+    height: 224px;
+    background: linear-gradient(147.87deg, #133F77 26.36%, #0F9CDA 125.59%);
+    border-radius: 10px;
+    padding: 2em;
+  
+
+}
+
+.box_section .main_box h1{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #78C2ED;
+}
+
+.box_section .main_box p{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    color: #FFFFFF;
+    width: 75%;
+}
+
+.box_section .main_box .x_image{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 20px;
+    top: 20px;
+        
+}
+
+.box_section .main_box .box1_image{
+    position: absolute;
+    right: -40px;
+    bottom: -20px;
+        
+}
+
+.box_section .main_box button{
+    width: 138px;
+    height: 44px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1B5BAC;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(16, 60, 116, 0.3);
+    border-radius: 6px;
+    
+}
+
+.box_section  .top_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_section  .top_section .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* second bos */
+.box_section #second_box{
+    background: #E5EEFB;
+    margin-left: 4em;
+}
+
+.box_section #second_box h1{   
+    color: #133F77;
+}
+
+.box_section #second_box p{
+    color: #000000;
+}
+
+.box_section #second_box .x_image{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 20px;
+    top: 20px;
+        
+}
+
+.box_section #second_box button{
+    width: 138px;
+    height: 44px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    background: #1B5BAC;
+    box-shadow: 0px 10px 20px rgba(16, 60, 116, 0.3);
+    border-radius: 6px;
+    
+}
+
+.box_section .main_box .box2_image{
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+        
+}

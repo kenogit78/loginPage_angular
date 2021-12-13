@@ -1,0 +1,32 @@
+.login_page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background: #000; */
+}
+
+.black{
+    width: 953px;
+    height: 100%;
+    opacity: 0.9;
+    background: #000;
+}
+
+.login_form{
+    width: 487px;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_page .login_form .header{
+    display: flex;
+}
+
+.login_page .login_form .header p{
+    margin-right: 1em;
+}
+

@@ -1,0 +1,39 @@
+<div class='login_page'>
+    <div class='black'></div>
+
+    <div class='login_form'>
+        <div class='header'>
+            <img src="assets/Group 12.svg" alt="">
+            <p>Express Lands</p>
+        </div>
+
+        <div class="text">
+            <h1>Login to </h1>
+            <h1>your account</h1>
+
+            <p> Welcome back! Please login your account details</p>
+
+            <form [formGroup] ='loginForm' (ngSubmit)="login()">
+                <div class='input_field'>
+                    <input 
+                    formControlName="email"
+                    type="text"
+                    placeholder="KTS12562892"
+                    >
+                </div>
+
+                <div class='input_field'>
+                    <input 
+                    formControlName="password"
+                    type="text"
+                    placeholder="Enter Password"
+                    >
+                </div>
+                <button> LOG IN</button>
+
+                
+            </form>
+        </div>
+
+    </div>
+</div>
