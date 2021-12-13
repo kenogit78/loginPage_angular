@@ -3,23 +3,33 @@
 
     <div class='login_form'>
         <div class='header'>
-            <p>Logo</p>
+            <img src="assets/Group 12.svg" alt="">
             <p>Express Lands</p>
         </div>
 
-        <div>
-            <h1>Login to your account</h1>
+        <div class="text">
+            <h1>Login to </h1>
+            <h1>your account</h1>
+
             <p> Welcome back! Please login your account details</p>
 
-            <form>
-                <input 
-                type="text"
-                placeholder="KTS12562892"
-                >
-                <input 
-                type="text"
-                placeholder="Enter Password"
-                >
+            <form [formGroup] ='loginForm' (ngSubmit)="login()">
+                <div class='input_field'>
+                    <input 
+                    formControlName="email"
+                    type="text"
+                    placeholder="KTS12562892"
+                    >
+                </div>
+
+                <div class='input_field'>
+                    <input 
+                    formControlName="password"
+                    type="text"
+                    placeholder="Enter Password"
+                    >
+                </div>
+                <button> LOG IN</button>
 
                 
             </form>
@@ -27,5 +37,7 @@
 
     </div>
 </div> -->
+
+<button routerLink="login"> Login </button>
 
 <router-outlet></router-outlet>
